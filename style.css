@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+body{
+  background: #454545 !important;
+  font-family: 'Secular One', sans-serif !important
+
+}
+#neubar {
+    background: #3EFA93;
+    /* box-shadow: 4px 6px 10px #89FABC */
+  }
+
+  .nav-item .active {
+    border-radius: 6px;
+    background: #1F7A48;
+    color: white !important;
+  }
+  .nav-item .active:hover {
+    color: white;
+  }
+   
+  #neubar .nav-item {
+    margin : auto 4px;
+  }
+  #neubar .nav-item a:hover{
+    color: #1F7A48;
+  }
+  #neubar a {
+    padding-left:12px;
+    padding-right:12px;
+    color: white;
+  }
+  a.navbar-brand {
+    color: #454545
+  }
+
+  .mt-10{
+    margin-top: 10px;
+  }
+
+  .before-league{
+    justify-content: center;
+align-items: center;
+text-align: left;
+margin-top: 20px;
+margin-bottom: px;
+padding-bottom: 5px;
+  }
+
+  .league {
+    border: 5px solid #30fb8b41;
+    border-radius: 5px;
+background: #2BAE66;
+margin-top: 20px;
+  }
+  /* .game .equipa-1 .equipa-2 .pvs .res-1 .res-2{
+    
+    text-align: center;
+    margin-top: 0px;
+  } */
+
+/* .equipa-1 .equipa-2 .pvs .res-1 .res-2{
+  margin-bottom: 0px;
+  
+  color: white;
+} */
+.vs{
+  margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.nome{
+  margin-bottom: 0px;
+}
+.league .row{
+  padding: 10px 10px 00px 10px ; 
+}
+.game{
+  background-color: #67BB8D;
+  border: 5px solid #67BB8D ;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  align-items: center;
+}
+.game .nome  {
+  display: inline-block;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.vs{
+  display: inline-block;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+.game .ods{
+  display: inline-block;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+.nome{
+  color: white;
+}
+
+.card {
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+align-items: center;
+display: inline-block !important;
+background-color: #2BAE66 !important;
+}
+.card-body{
+  width: 100%;
+  /* background-color: #67BB8D; */
+  color: white;
+}
+
+.card-img-top{
+  /* width: 50% !important; */
+  width: 222px !important;
+  height: 125px !important; 
+  margin-top: 5px;
+}
+/* .card .container {
+  max-width: 400 !important;
+} */
+.card-text{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 10px !important;
+}
+.card-group{
+  width: 100%;
+  margin-top: 20px;
+  display: inline-block !important;
+}
+
+h1{
+  margin-top: 10px !important;
+  margin-bottom: 0 !important;
+  align-items: center;
+  color: white;
+}
+.res{
+  color: red !important;
+}
+.img{
+  width: 50%;
+}
